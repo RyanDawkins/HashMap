@@ -133,12 +133,14 @@
  			String node = slot.first();
  			while(!s.equals(node))
  			{
- 				node = slot.next();
+ 				if(s.equals(node))
+ 				{
+ 					comparisons++;
+ 					return comparisons;
+ 				}
  				comparisons++;
- 				if(node == null)
- 					return -1*comparisons;
  			}
- 			return comparisons;
+ 			return comparisons*-1;
  		}
  	}
 
