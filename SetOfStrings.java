@@ -129,7 +129,7 @@
  		}
  		else
  		{
- 			int comparisons = 0;
+ 			int comparisons = 1;
  			String node = slot.first();
  			while(!s.equals(node))
  			{
