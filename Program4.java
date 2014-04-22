@@ -79,7 +79,7 @@ public class Program4 extends Tokenizer
 
 	public void printComparisons()
 	{
-		double average = (double)(this.sum / this.keys.length);
+		int average = (this.sum / this.keys.length);
 
 		System.out.print("\n");
 		System.out.println("Size of set: "+this.words.count());
