@@ -41,7 +41,7 @@ public class Program4 extends Tokenizer
 
 		// This is the default tokens to be stored and adds the tokens
 		// to the words HashMap
-		this.keys = tokenize(keyFileName);
+		this.keys = tokenize_and_strip(keyFileName);
 		for(int i = 0; i < tokens.length; i++)
 		{
 			words.add(tokens[i]);
