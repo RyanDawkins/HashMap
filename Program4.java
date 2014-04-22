@@ -9,7 +9,8 @@ public class Program4 extends Tokenizer
 
 	private SetOfStrings words;
 	private String[] keys, tokens;
-	private int min, max, sum;
+	private int min, max;
+	private long sum;
 
 	public static void main(String[] args)
 	{

@@ -134,9 +134,9 @@
  			while(!s.equals(node))
  			{
  				node = slot.next();
+ 				comparisons++;
  				if(node == null)
  					return -1*comparisons;
- 				comparisons++;
  			}
  			return comparisons;
  		}
