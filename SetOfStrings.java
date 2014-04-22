@@ -139,6 +139,7 @@
  					return comparisons;
  				}
  				comparisons++;
+ 				node = slot.next();
  			}
  			return comparisons*-1;
  		}
