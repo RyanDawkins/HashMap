@@ -1,3 +1,7 @@
+// CS 4343 Program 4
+// Ryan Dawkins
+// 1153202
+
 import java.util.Scanner;
 
 public class Program4 extends Tokenizer
