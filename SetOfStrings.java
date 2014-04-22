@@ -131,7 +131,7 @@
  		{
  			int comparisons = 1;
  			String node = slot.first();
- 			while(!s.equals(node))
+ 			while(node != null)
  			{
  				if(s.equals(node))
  				{
